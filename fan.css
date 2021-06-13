@@ -1,0 +1,226 @@
+body {
+  background: radial-gradient(#555555, #222);
+  background-size: 100vw 100vh;
+}
+
+.fan {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fan li {
+  padding: 2.5em;
+  width: 40em;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  -webkit-transform-origin: 90%;
+          transform-origin: 90%;
+  border-radius: 1em 60% 60% 1em;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.fan li::before {
+  content: "";
+  display: block;
+  background-color: #222;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  right: 10%;
+  top: calc(50% - 0.5em);
+}
+
+.fan li:nth-child(1) {
+  background-color: #0f0404;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 0.25%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 0.25%);
+  color: daarken(white, 36%);
+}
+
+.fan li:nth-child(2) {
+  background-color: #1b0707;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 0.5%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 0.5%);
+  color: daarken(white, 33%);
+}
+
+.fan li:nth-child(3) {
+  background-color: #270a0a;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 0.75%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 0.75%);
+  color: daarken(white, 30%);
+}
+
+.fan li:nth-child(4) {
+  background-color: #330d0d;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 1%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 1%);
+  color: daarken(white, 27%);
+}
+
+.fan li:nth-child(5) {
+  background-color: #3f1010;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 1.25%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 1.25%);
+  color: daarken(white, 24%);
+}
+
+.fan li:nth-child(6) {
+  background-color: #4c1313;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 1.5%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 1.5%);
+  color: daarken(white, 21%);
+}
+
+.fan li:nth-child(7) {
+  background-color: #581616;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 1.75%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 1.75%);
+  color: daarken(white, 18%);
+}
+
+.fan li:nth-child(8) {
+  background-color: #641919;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 2%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 2%);
+  color: daarken(white, 15%);
+}
+
+.fan li:nth-child(9) {
+  background-color: #701d1d;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 2.25%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 2.25%);
+  color: daarken(white, 12%);
+}
+
+.fan li:nth-child(10) {
+  background-color: #7c2020;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 2.5%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 2.5%);
+  color: daarken(white, 9%);
+}
+
+.fan li:nth-child(11) {
+  background-color: #892323;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 2.75%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 2.75%);
+  color: daarken(white, 6%);
+}
+
+.fan li:nth-child(12) {
+  background-color: #952626;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 3%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 3%);
+  color: daarken(white, 3%);
+}
+
+.fan li:nth-child(13) {
+  background-color: #a12929;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em lightn(#222, 3.25%);
+          box-shadow: 0 0 0.5em 0.25em lightn(#222, 3.25%);
+  color: daarken(white, 0%);
+}
+
+.fan h2, .fan p {
+  margin: 0;
+  color: white;
+}
+
+.fan:hover li:nth-child(1) {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fan:hover li:nth-child(2) {
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+}
+
+.fan:hover li:nth-child(3) {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.fan:hover li:nth-child(4) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.fan:hover li:nth-child(5) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.fan:hover li:nth-child(6) {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.fan:hover li:nth-child(7) {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.fan:hover li:nth-child(8) {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.fan:hover li:nth-child(9) {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.fan:hover li:nth-child(10) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.fan:hover li:nth-child(11) {
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.fan:hover li:nth-child(12) {
+  -webkit-transform: rotate(-75deg);
+          transform: rotate(-75deg);
+}
+
+.fan:hover li:nth-child(13) {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+/*# sourceMappingURL=fan.css.map */
